@@ -1,0 +1,16 @@
+name: my-main-check
+
+on: [push]
+jobs:
+   Install-Test-Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+      - name: run setup & start
+      - run: make setup 
+      - run: make start
+      - name: run tests
+      - run: make test 
+      - name: run lint
+      - run: make lint  
