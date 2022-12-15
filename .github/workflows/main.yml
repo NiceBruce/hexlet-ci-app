@@ -7,6 +7,11 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v2
+      - name: setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'npm'
       - run: make setup 
       - run: make test 
       - run: make lint  
