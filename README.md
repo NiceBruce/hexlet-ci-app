@@ -1,5 +1,5 @@
 ### My tests and linter status:
-[![Actions Status](https://github.com/NiceBruce/hexlet-ci-app/workflows/main/badge.svg)](https://github.com/NiceBruce/hexlet-ci-app/actions)
+[![Actions Status](https://github.com/NiceBruce/hexlet-ci-app/workflows/my-main-check/badge.svg)](https://github.com/NiceBruce/hexlet-ci-app/actions)
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
